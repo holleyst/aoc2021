@@ -1,12 +1,12 @@
 # AoC 2021 - holleyst
-# Day 1 Puzzle 1 (day01puzzle1.py)
+# Day 1 Puzzle 1 (day01part1.py)
 # https://adventofcode.com/2021/day/1
 
-# Read in depth measurements from input file (day01puzzle1input.txt)
+# Read in depth measurements from input file (day01part1input.txt)
 # How many measurements are larger than the previous measurement?
 
 # read in depth measurements
-input_file = "day01puzzle1input.txt"
+input_file = "day01part1input.txt"
 f = open(input_file, "r")
 depth_list = [int(line.strip()) for line in f]
 f.close()
